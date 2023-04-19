@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hora De Codar 2 </title>
+</head>
+<body>
+    <script>
+        var n1 = Number(prompt("Digite um valor"));
+        var n2 = Number(prompt("Digite um valor"));
+        var n3 = Number(prompt("Digite um valor"));
+        
+
+        if ( n1 == n2 || n1 == n3 || n2 == n3){
+            alert(("ERRO, NÃO É POSSÍVEL DIGITAR VALORES IGUAIS! "));
+        } else{
+        if(n1 > n2 && n1 > n3){
+        if (n2 > n3){
+            alert((`A soma dos dois maiores valores é ${n1 + n2}`));
+        } else {
+            alert((`A soma dos dois maiores valores é ${n1 + n3}`));
+            }
+        } 
+            if( n2 > n1 && n2 > n3){
+                if ( n3 > n1){
+                alert((`A soma dos dois maiores valores é ${n2 + n3}`));
+                }else {
+                alert((`A soma dos dois maiores valores é ${n2 + n1}`));
+                }
+        }   if(n3 > n1 && n3 > n2){
+            if ( n1 > n2){
+                alert((`A soma dos dois maiores valores é ${n3 + n1}`));
+                }else{
+                alert((`A soma dos dois maiores valores é ${n3 + n2}`));
+                }
+        }
+    }
+        
+      
+    </script>
+</body>
+</html>

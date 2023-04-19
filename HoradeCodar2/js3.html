@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora de Codar 2</title>
+</head>
+<body>
+    <script>
+        var n1 = Number(prompt("Digite um valor"));
+        var n2 = Number(prompt("Digite um valor"));
+        var n3 = Number(prompt("Digite um valor"));
+
+      if(n1 == n2 || n1 == n3 || n2 == n3){
+            alert(`ERRO, EXISTE VALORES IGUAIS`)
+        }else if(n1 > n2 && n1 > n3){
+            alert("O " + n1 + " É o maior número")
+        }else if(n2 > n3 && n2 > n1){
+            alert("O " + n2 + " É o maior número")
+        }else{
+            alert("O " + n3 + " É o maior número")
+        }
+
+    </script>
+</body>
+</html> 

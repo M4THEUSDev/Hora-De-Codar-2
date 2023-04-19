@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 6</title>
+
+    <!-- Faça um programa que receba quatro valores informados 
+    pelo usuário, mas informe somente o primeiro, o último 
+    e o maior de todos eles (considere que todos os números informados serão diferentes) -->
+</head>
+<body>
+    <script>
+        var n1 = parseFloat(prompt("Digite o primeiro número"));
+        var n2 = parseFloat(prompt("Digite o primeiro número"));
+        var n3 = parseFloat(prompt("Digite o primeiro número"));
+        var n4 = parseFloat(prompt("Digite o primeiro número"));
+
+        
+        if(n1 > n2 && n1 > n3 && n1 > n4 ){
+            alert(`O primeiro número é ${n1} \n o ultimo número é ${n4} \n e o maior número e ${n1}`);  
+        } else if( n2 > n1 && n2 > n3 && n2 > n4){
+            alert(`O primeiro número é ${n1} \n o ultimo número é ${n4} \n e o maior número e ${n2}`);  
+        } else if( n3 > n1 && n3 > n2 && n3 > n4){
+            alert(`O primeiro número é ${n1} \n o ultimo número é ${n4} \n e o maior número e ${n3}`);  
+        } else {
+            alert(`O primeiro número é ${n1} \n o ultimo número é ${n4} \n e o maior número e ${n4}`); 
+        }
+    </script>
+</body>
+</html>
+
